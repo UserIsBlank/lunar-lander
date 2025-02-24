@@ -22,7 +22,7 @@ This project implements a Deep Q-Learning (DQN) algorithm to solve the LunarLand
 
 ---
 
-## Project Description {#project-description}
+## [Project Description]{#project-description}
 
 The LunarLander-v3 environment simulates a lunar landing scenario where the agent must control a spacecraft to land safely on a landing pad. The agent receives observations about the spacecraft's position, velocity, and orientation, and it must choose between four discrete actions (do nothing, fire left engine, fire main engine, fire right engine) to achieve a safe landing.
 
