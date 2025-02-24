@@ -10,9 +10,9 @@ This project implements a Deep Q-Learning (DQN) algorithm to solve the LunarLand
 ## Table of Contents
 
 1. Project Description
-2. Key Features
-3. Technologies Used
-4. Installation
+2. Installation
+3. Key Features
+4. Technologies Used
 5. Usage
 6. Code Structure
 7. Results
@@ -36,6 +36,21 @@ The agent is trained for 2000 episodes, and the training process stops early if 
 
 ---
 
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the Repository:
+  git clone https://github.com/UserIsBlank/lunar-lander.git
+  cd deep-q-learning-lunar-landing
+2. Install Dependencies:
+Ensure you have Python 3.8 or higher installed. Create a virtual environment to install the required packages:
+  pip install -r requirements.txt
+3. Run the Training Script:
+  python3 train.py
+
+---
+
 ## Key Features
 
 - Deep Q-Learning Implementation: A complete implementation of the DQN algorithm, including experience replay and target networks.
@@ -51,22 +66,9 @@ The agent is trained for 2000 episodes, and the training process stops early if 
 - PyTorch: A deep learning framework used to build and train the neural network.
 - Gymnasium: A toolkit for developing and comparing reinforcement learning algorithms.
 - NumPy: A library for numerical computations.
-- Matplotlib: Used for visualizing training progress (optional).
+- Matplotlib: Used for visualizing training progress.
 - ImageIO: Used to create a video of the agent's performance.
 
 ---
 
-## Installation
 
-To run this project locally, follow these steps:
-
-1. Clone the Repository:
-  git clone https://github.com/UserIsBlank/lunar-lander.git
-  cd deep-q-learning-lunar-landing
-
-2. Install Dependencies:
-Ensure you have Python 3.8 or higher installed. Create a virtual environmentn an install the required packages:
-  pip install -r requirements.txt
-
-3. Run the Training Script:
-  python3 train.py
