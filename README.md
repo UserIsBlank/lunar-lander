@@ -1,11 +1,9 @@
-#  Lunar Landing
+#  OpenAI Gym LunarLander-v3 Implementation
 Authors: \<[Joshua Ha](https://github.com/UserIsBlank)\>
 
 ## Overview
 
 This project implements a Deep Q-Learning (DQN) algorithm to solve the LunarLander-v3 environment from OpenAI's Gymnasium. The goal is to train an AI agent to successfully land a lunar module on the moon's surface using reinforcement learning. The project demonstrates the application of deep reinforcement learning techniques, including experience replay, target networks, and epsilon-greedy exploration.
-
-The project is designed to showcase my skills in reinforcement learning, PyTorch, and Python programming, making it an excellent addition to my portfolio for technical interviews.
 
 ---
 
@@ -63,3 +61,12 @@ The agent is trained for 2000 episodes, and the training process stops early if 
 To run this project locally, follow these steps:
 
 1. Clone the Repository:
+  git clone https://github.com/UserIsBlank/deep-q-learning-lunar-landing.git
+  cd deep-q-learning-lunar-landing
+
+2. Install Dependencies:
+Ensure you have Python 3.8 or higher installed. Create a virtual environmentn an install the required packages:
+  pip install -r requirements.txt
+
+3. Run the Training Script:
+  python3 train.py
