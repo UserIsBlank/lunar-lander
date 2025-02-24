@@ -118,7 +118,7 @@ Feel free to explore the code, experiment with different parameters, and contrib
 
 ---
 
-GitHub Repository: https://github.com/UserIsBlank/lunar-lander
-LinkedIn: [https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/joshua-ha-805879280/)
-Email: josh4329ln@gmail.com
+>GitHub Repository: https://github.com/UserIsBlank/lunar-lander
+>LinkedIn: [https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/joshua-ha-805879280/)
+>Email: josh4329ln@gmail.com
 
