@@ -118,6 +118,6 @@ Feel free to explore the code, experiment with different parameters, and contrib
 
 ---
 
-LinkedIn: [https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/joshua-ha-805879280/) **blank line**
+LinkedIn: [https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/joshua-ha-805879280/)  
 Email: josh4329ln@gmail.com
 
