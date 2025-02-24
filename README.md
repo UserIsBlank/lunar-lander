@@ -1,4 +1,4 @@
-#  OpenAI Gym LunarLander-v3 Implementation
+#  OpenAI Gym's LunarLander-v3 Implementation
 Authors: \<[Joshua Ha](https://github.com/UserIsBlank)\>
 
 ## Overview
