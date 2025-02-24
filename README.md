@@ -27,13 +27,13 @@ The agent is trained for 2000 episodes, and the training process stops early if 
 To run this project locally, follow these steps:
 
 1. Clone the Repository:
-  git clone https://github.com/UserIsBlank/lunar-lander.git
-  cd deep-q-learning-lunar-landing
-2. Install Dependencies:
+  >git clone https://github.com/UserIsBlank/lunar-lander.git
+  >cd deep-q-learning-lunar-landing
+3. Install Dependencies:
 Ensure you have Python 3.8 or higher installed. Create a virtual environment to install the required dependencies:
-  pip install -r requirements.txt
-3. Run the Training Script:
-  python3 train.py
+  >pip install -r requirements.txt
+4. Run the Training Script:
+  >python3 train.py
 
 ---
 
@@ -118,6 +118,6 @@ Feel free to explore the code, experiment with different parameters, and contrib
 
 ---
 
-LinkedIn: [https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/joshua-ha-805879280/)
+LinkedIn: [https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/joshua-ha-805879280/) **blank line**
 Email: josh4329ln@gmail.com
 
