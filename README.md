@@ -9,19 +9,19 @@ This project implements a Deep Q-Learning (DQN) algorithm to solve the LunarLand
 
 ## Table of Contents
 
-1. Project Description
-2. Installation
-3. Key Features
-4. Technologies Used
-5. Usage
-6. Code Structure
-7. Results
-8. Future Improvements
-9. License
+1. Project Description (#project-description)
+2. Installation (#installation)
+3. Key Features (#key-features)
+4. Technologies Used (#technologies-used)
+5. Usage (#usage)
+6. Results
+7. Future Improvements
+8. License
+9. Conclusion
 
 ---
 
-## Project Description
+## Project Description {#project-description}
 
 The LunarLander-v3 environment simulates a lunar landing scenario where the agent must control a spacecraft to land safely on a landing pad. The agent receives observations about the spacecraft's position, velocity, and orientation, and it must choose between four discrete actions (do nothing, fire left engine, fire main engine, fire right engine) to achieve a safe landing.
 
@@ -36,7 +36,7 @@ The agent is trained for 2000 episodes, and the training process stops early if 
 
 ---
 
-## Installation
+## Installation {#installation}
 
 To run this project locally, follow these steps:
 
@@ -51,7 +51,7 @@ Ensure you have Python 3.8 or higher installed. Create a virtual environment to 
 
 ---
 
-## Key Features
+## Key Features {#key-features}
 
 - Deep Q-Learning Implementation: A complete implementation of the DQN algorithm, including experience replay and target networks.
 - Modular Code: The code is organized into classes for the neural network, replay memory, and agent, making it easy to extend and reuse.
@@ -60,7 +60,7 @@ Ensure you have Python 3.8 or higher installed. Create a virtual environment to 
 
 ---
 
-## Technologies Used
+## Technologies Used {#technologies-used}
 
 - Python: The primary programming language used for the project.
 - PyTorch: A deep learning framework used to build and train the neural network.
@@ -71,7 +71,7 @@ Ensure you have Python 3.8 or higher installed. Create a virtual environment to 
 
 ---
 
-## Usage
+## Usage {#usage}
 
 ### Training the Agent
 
@@ -80,17 +80,6 @@ The training process is handled by the `train.py` script. The script initializes
 ### Visualizing the Results
 
 After training, you can visualize the agent's performance by running the `visualize.py` script. This script renders a video of the lunar landing using the trained agent.
-
----
-
-## Code Structure
-
-The project is organized into the following files:
-
-- `dqn.py`: Contains the implementation of the neural network (`Network`), replay memory (`ReplayMemory`), and the DQN agent (`Agent`).
-- `train.py`: The main script for training the DQN agent.
-- `visualize.py`: A script to visualize the trained agent's performance.
-- `utils.py`: Contains utility functions for rendering and displaying videos.
 
 ---
 
