@@ -75,14 +75,14 @@ After training, you can visualize the agent's performance by running the `visual
 
 During training, the agent's performance is monitored by calculating the average score over the last 100 episodes. The environment is considered solved when the agent achieves an average score of 200 or higher.
 
-Example output during training:
-Episode 100	Average Score: -162.92
-Episode 200	Average Score: -103.80
-Episode 300	Average Score: -41.63
-Episode 400	Average Score: -43.84
-Episode 500	Average Score: -14.88
-Episode 600	Average Score: 106.19
-Episode 691	Average Score: 200.03
+Example output during training:  
+Episode 100	Average Score: -162.92  
+Episode 200	Average Score: -103.80  
+Episode 300	Average Score: -41.63  
+Episode 400	Average Score: -43.84  
+Episode 500	Average Score: -14.88  
+Episode 600	Average Score: 106.19  
+Episode 691	Average Score: 200.03  
 Environment solved in 591 episodes!	Average Score: 200.03
 
 
