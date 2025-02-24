@@ -9,15 +9,16 @@ This project implements a Deep Q-Learning (DQN) algorithm to solve the LunarLand
 
 ## Table of Contents
 
-1. Project Description (#project-description)
-2. Installation (#installation)
-3. Key Features (#key-features)
-4. Technologies Used (#technologies-used)
-5. Usage (#usage)
-6. Results
-7. Future Improvements
-8. License
-9. Conclusion
+## Table of Contents
+1. [Project Description](#project-description)
+2. [Installation](#installation)
+3. [Key Features](#key-features)
+4. [Technologies Used](#technologies-used)
+5. [Usage](#usage)
+6. [Results](#results)
+7. [Future Improvements](#future-improvements)
+8. [License](#license)
+9. [Conclusion](#conclusion)
 
 ---
 
@@ -83,7 +84,7 @@ After training, you can visualize the agent's performance by running the `visual
 
 ---
 
-## Results
+## Results {#results}
 
 ### Training Progress
 
@@ -106,7 +107,7 @@ After training, the agent's performance can be visualized by rendering a video o
 
 ---
 
-## Future Improvements
+## Future Improvements {#future-improvements}
 
 This project can be extended in several ways:
 
@@ -118,13 +119,13 @@ This project can be extended in several ways:
 
 ---
 
-## License
+## License {#liscense}
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
 
-## Conclusion
+## Conclusion {#conclusion}
 
 This project demonstrates my ability to implement and train a deep reinforcement learning agent using PyTorch and Gymnasium. It showcases my understanding of key reinforcement learning concepts, including Q-learning, experience replay, and neural network approximation. The modular code structure and clear documentation make it easy to extend and adapt for other reinforcement learning tasks.
 
