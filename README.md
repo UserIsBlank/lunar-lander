@@ -7,22 +7,7 @@ This project implements a Deep Q-Learning (DQN) algorithm to solve the LunarLand
 
 ---
 
-## Table of Contents
-
-## Table of Contents
-1. [Project Description](#project-description)
-2. [Installation](#installation)
-3. [Key Features](#key-features)
-4. [Technologies Used](#technologies-used)
-5. [Usage](#usage)
-6. [Results](#results)
-7. [Future Improvements](#future-improvements)
-8. [License](#license)
-9. [Conclusion](#conclusion)
-
----
-
-## [Project Description]{#project-description}
+## Project Description
 
 The LunarLander-v3 environment simulates a lunar landing scenario where the agent must control a spacecraft to land safely on a landing pad. The agent receives observations about the spacecraft's position, velocity, and orientation, and it must choose between four discrete actions (do nothing, fire left engine, fire main engine, fire right engine) to achieve a safe landing.
 
@@ -37,7 +22,7 @@ The agent is trained for 2000 episodes, and the training process stops early if 
 
 ---
 
-## Installation {#installation}
+## Installation
 
 To run this project locally, follow these steps:
 
@@ -52,7 +37,7 @@ Ensure you have Python 3.8 or higher installed. Create a virtual environment to 
 
 ---
 
-## Key Features {#key-features}
+## Key Features
 
 - Deep Q-Learning Implementation: A complete implementation of the DQN algorithm, including experience replay and target networks.
 - Modular Code: The code is organized into classes for the neural network, replay memory, and agent, making it easy to extend and reuse.
@@ -61,7 +46,7 @@ Ensure you have Python 3.8 or higher installed. Create a virtual environment to 
 
 ---
 
-## Technologies Used {#technologies-used}
+## Technologies Used
 
 - Python: The primary programming language used for the project.
 - PyTorch: A deep learning framework used to build and train the neural network.
@@ -72,7 +57,7 @@ Ensure you have Python 3.8 or higher installed. Create a virtual environment to 
 
 ---
 
-## Usage {#usage}
+## Usage
 
 ### Training the Agent
 
@@ -84,7 +69,7 @@ After training, you can visualize the agent's performance by running the `visual
 
 ---
 
-## Results {#results}
+## Results
 
 ### Training Progress
 
@@ -107,7 +92,7 @@ After training, the agent's performance can be visualized by rendering a video o
 
 ---
 
-## Future Improvements {#future-improvements}
+## Future Improvements
 
 This project can be extended in several ways:
 
@@ -119,13 +104,13 @@ This project can be extended in several ways:
 
 ---
 
-## License {#liscense}
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
 
-## Conclusion {#conclusion}
+## Conclusion
 
 This project demonstrates my ability to implement and train a deep reinforcement learning agent using PyTorch and Gymnasium. It showcases my understanding of key reinforcement learning concepts, including Q-learning, experience replay, and neural network approximation. The modular code structure and clear documentation make it easy to extend and adapt for other reinforcement learning tasks.
 
