@@ -44,7 +44,7 @@ To run this project locally, follow these steps:
   git clone https://github.com/UserIsBlank/lunar-lander.git
   cd deep-q-learning-lunar-landing
 2. Install Dependencies:
-Ensure you have Python 3.8 or higher installed. Create a virtual environment to install the required packages:
+Ensure you have Python 3.8 or higher installed. Create a virtual environment to install the required dependencies:
   pip install -r requirements.txt
 3. Run the Training Script:
   python3 train.py
@@ -71,4 +71,79 @@ Ensure you have Python 3.8 or higher installed. Create a virtual environment to 
 
 ---
 
+## Usage
+
+### Training the Agent
+
+The training process is handled by the `train.py` script. The script initializes the environment, creates the DQN agent, and trains it for 2000 episodes. The training progress is printed to the console, showing the average score over the last 100 episodes.
+
+### Visualizing the Results
+
+After training, you can visualize the agent's performance by running the `visualize.py` script. This script renders a video of the lunar landing using the trained agent.
+
+---
+
+## Code Structure
+
+The project is organized into the following files:
+
+- `dqn.py`: Contains the implementation of the neural network (`Network`), replay memory (`ReplayMemory`), and the DQN agent (`Agent`).
+- `train.py`: The main script for training the DQN agent.
+- `visualize.py`: A script to visualize the trained agent's performance.
+- `utils.py`: Contains utility functions for rendering and displaying videos.
+
+---
+
+## Results
+
+### Training Progress
+
+During training, the agent's performance is monitored by calculating the average score over the last 100 episodes. The environment is considered solved when the agent achieves an average score of 200 or higher.
+
+Example output during training:
+Episode 100	Average Score: -162.92
+Episode 200	Average Score: -103.80
+Episode 300	Average Score: -41.63
+Episode 400	Average Score: -43.84
+Episode 500	Average Score: -14.88
+Episode 600	Average Score: 106.19
+Episode 691	Average Score: 200.03
+Environment solved in 591 episodes!	Average Score: 200.03
+
+
+### Visualizing the Agent's Performance
+
+After training, the agent's performance can be visualized by rendering a video of the lunar landing. The video shows the agent successfully landing the lunar module on the landing pad.
+
+---
+
+## Future Improvements
+
+This project can be extended in several ways:
+
+1. Hyperparameter Tuning: Experiment with different hyperparameters (e.g., learning rate, discount factor) to improve training efficiency.
+2. Advanced Algorithms: Implement advanced reinforcement learning algorithms such as Double DQN, Dueling DQN, or A3C.
+3. Continuous Action Space: Adapt the algorithm to work with environments that have a continuous action space.
+4. Parallel Training: Use parallel training techniques to speed up the training process.
+5. Deployment: Deploy the trained model to a real-world application or simulation.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+## Conclusion
+
+This project demonstrates my ability to implement and train a deep reinforcement learning agent using PyTorch and Gymnasium. It showcases my understanding of key reinforcement learning concepts, including Q-learning, experience replay, and neural network approximation. The modular code structure and clear documentation make it easy to extend and adapt for other reinforcement learning tasks.
+
+Feel free to explore the code, experiment with different parameters, and contribute to the project! If you have any questions or feedback, please don't hesitate to reach out.
+
+---
+
+GitHub Repository: https://github.com/UserIsBlank/lunar-lander
+LinkedIn: [https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/joshua-ha-805879280/)
+Email: josh4329ln@gmail.com
 
